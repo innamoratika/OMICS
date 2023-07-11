@@ -1,3 +1,6 @@
+# Ignore student-created log and text files in the repo home dir
+/*.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
