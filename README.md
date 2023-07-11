@@ -25,8 +25,14 @@
 http://10.11.19.24/
 
 #### 2b. Open a terminal window
+In web browser, from JupyterLab menu:    
+```
+File -> New -> Terminal
+```
+
 
 ### 3. Make a directory to store your projects (w/Linux commands):
+In the terminal window that you just opened, type each command and press the [Enter] button:    
 * Show the name of your home directory (`pwd`)
 * Show contents of your home directory (`ls`)
 * Make a new directory to store your projects (`mkdir repos`)
