@@ -3,10 +3,10 @@
 ## [Week 1 Summary: Intro to JupyterHub, Linux and GitHub](#week-1-details-intro-to-jupyterhub-linux-and-github-1)
 
 1. [Log in to Drexel Medicine JupyterHub](#1-log-in-to-drexel-medicine-jupyterhub)
-2. [Open a terminal window in JupyterHub](#2-open-a-terminal-window-in-jupyterhub)
+2. [Open a terminal window in JupyterHub](#2-open-a-terminal-window-on-jupyterhub)
 3. [Make a directory to store your projects (w/Linux commands)](#3-make-a-directory-to-store-your-projects-wlinux-commands)
-4. [Save, backup your projects (w/GitHub)](#4-save-backup-your-projects-wgithub)
-5. [Lab instructions](#5-week-1-lab)
+4. [Commit (save vertion) and backup your project (w/GitHub)](#4-save-and-backup-your-projects-wgithub)
+5. [Lab instructions](#5-week-1-lab-instructions)
 
 
 # Weekly Details
@@ -16,9 +16,9 @@
 ### 1. Log in to Drexel Medicine JupyterHub
 * Install Drexel Medicine VPN: https://drexel.edu/it/help/a-z/VPN/
 * Login to the Drexel Medicine:
-<p><img src="/doc/images/wk01a_vpn_login.png" alt="Connect" width="200"></p>    
-<p><img src="/doc/images/wk01b_vpn_login.png" alt="Login"   width="200"></p>    
-<p><img src="/doc/images/wk01c_vpn_login.png" alt="Accept"  width="200"></p>    
+<p><img src="/doc/images/wk01a_vpn_login.png" alt="Connect" width="400"></p>    
+<p><img src="/doc/images/wk01b_vpn_login.png" alt="Login"   width="400"></p>    
+<p><img src="/doc/images/wk01c_vpn_login.png" alt="Accept"  width="400"></p>    
 
 ### 2. Open a terminal window on JupyterHub
 #### 2a. Open JupyterHub
