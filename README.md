@@ -43,7 +43,7 @@ This course covers the history, application, and computational analysis of ‘om
 |Project             | 25%    | Weekly analysis of your own dataset
 
 
-## Respository Layout
+## Repository Layout
 
 This repository contains all of the learning content for the course and will be the way you submit all assignments.
 
@@ -61,21 +61,21 @@ The `projects` folder contains information about the ongoing project and is wher
 
 |Week                         |Date       |Module               | Topic                                  |Instructors   | Status 
 |-----------------------------|-----------|---------------------|----------------------------------------|--------------|-------
-|[ 1](/content/wk01/Readme.md)|08/22/2023 | Hello World         | Course intro, git, & JupyterHub        |DVK, KAI      | unreleased
-|[ 2](/content/wk02/Readme.md)|08/29/2023 | Hello World         | Basic terminal navigation              |DVK, KAI      | unreleased
+|[ 1](/content/wk01/README.md)|08/22/2023 | Hello World         | Course intro, git, & JupyterHub        |DVK, KAI      | unreleased
+|[ 2](/content/wk02/README.md)|08/29/2023 | Hello World         | Basic terminal navigation              |DVK, KAI      | unreleased
 |[ 3](/content/wk03/README.md)|08/22/2023 | Hello World         | Sequencing datasets & terminal analysis|WND, JCM      | draft
-|[ 4](/content/wk04/Readme.md)|09/05/2023 | Align all the things| NGS read alignment                     |WND, JCM      | unreleased
-|[ 5](/content/wk05/Readme.md)|09/12/2023 | Align all the things| Counting aligned reads                 |WND, JCM      | unreleased
-|[ 6](/content/wk06/Readme.md)|09/19/2023 | Align all the things| Variant calling                        |WND, JCM      | unreleased
-|[ 7](/content/wk07/Readme.md)|09/26/2023 | Align all the things| Interpreting variant effects           |WND, JCM      | unreleased
-|[ 8](/content/wk08/Readme.md)|10/03/2023 | OMICS as count table| Transcriptomics                        |WND, JCM      | unreleased
-|[ 9](/content/wk10/Readme.md)|10/10/2023 | OMICS as count table| Statistical Analysis of Count-Data     |WND, JCM      | unreleased
-|[10](/content/wk09/Readme.md)|10/17/2023 | OMICS as count table| Peak analysis in OMICS data (ChIP-Seq) |WND, JCM      | unreleased
-|[11](/content/wk11/Readme.md)|10/24/2023 | OMICS as count table| Gene Ontology                          |DVK           | unreleased
-|[12](/content/wk12/Readme.md)|10/31/2023 | OMICS as count table| Gene Ontology Enrichment Analysis      |DVK           | unreleased
-|[13](/content/wk13/Readme.md)|11/07/2023 | Genome Comparisons  | Microbiome creation                    |JPE, KAI      | unreleased
-|[14](/content/wk14/Readme.md)|11/14/2023 | Genome Comparisons  | Microbiome analysis                    |JPE, KAI      | unreleased
-|[15](/content/wk15/Readme.md)|11/28/2023 | Genome Comparisons  | Microbiome metrics                     |JPI, KAI      | unreleased
-|[16](/content/wk16/Readme.md)|12/05/2023 |                     | Future directions in OMICS             |Everyone      | unreleased
+|[ 4](/content/wk04/README.md)|09/05/2023 | Align all the things| NGS read alignment                     |WND, JCM      | unreleased
+|[ 5](/content/wk05/README.md)|09/12/2023 | Align all the things| Counting aligned reads                 |WND, JCM      | unreleased
+|[ 6](/content/wk06/README.md)|09/19/2023 | Align all the things| Variant calling                        |WND, JCM      | unreleased
+|[ 7](/content/wk07/README.md)|09/26/2023 | Align all the things| Interpreting variant effects           |WND, JCM      | unreleased
+|[ 8](/content/wk08/README.md)|10/03/2023 | OMICS as count table| Transcriptomics                        |WND, JCM      | unreleased
+|[ 9](/content/wk10/README.md)|10/10/2023 | OMICS as count table| Statistical Analysis of Count-Data     |WND, JCM      | unreleased
+|[10](/content/wk09/README.md)|10/17/2023 | OMICS as count table| Peak analysis in OMICS data (ChIP-Seq) |WND, JCM      | unreleased
+|[11](/content/wk11/README.md)|10/24/2023 | OMICS as count table| Gene Ontology                          |DVK           | unreleased
+|[12](/content/wk12/README.md)|10/31/2023 | OMICS as count table| Gene Ontology Enrichment Analysis      |DVK           | unreleased
+|[13](/content/wk13/README.md)|11/07/2023 | Genome Comparisons  | Microbiome creation                    |JPE, KAI      | unreleased
+|[14](/content/wk14/README.md)|11/14/2023 | Genome Comparisons  | Microbiome analysis                    |JPE, KAI      | unreleased
+|[15](/content/wk15/README.md)|11/28/2023 | Genome Comparisons  | Microbiome metrics                     |JPI, KAI      | unreleased
+|[16](/content/wk16/README.md)|12/05/2023 |                     | Future directions in OMICS             |Everyone      | unreleased
 
 Copyright (C) 2023-present, Drexel Medicine. All rights reserved
