@@ -1,0 +1,12 @@
+File Path,MD5 Checksum
+solution/SRR23803539.fastq,49198ebe82be4ff6feb5217d29ca7094
+solution/demux.stats.tsv,63f1fc005609c2196b8c3d34375642c5
+solution/SRR23803537.fastq,0a364d98f976f851e485f16ba16d3be8
+solution/muxed.stats.tsv,97e32a8648e54fedce69bf8552fa40d9
+solution/SRR23803536.trimmed.fastq.gz,a936da0e4e0e80ec0c686979dfe22e1d
+solution/SRR23803536.fastq,c1961af01f12c7b9d12ce0c9704678f6
+solution/SRR23803538.fastq,6762f3cde2c47bea2ec7a19fd5249df7
+solution/SRR23803537.trimmed.fastq.gz,1f5dc5181bb0f992e9014cc710fe7a2d
+solution/SRR23803539.trimmed.fastq.gz,45e52aa5b2cd6188e521c2c225a2592f
+solution/SRR23803538.trimmed.fastq.gz,e08ebf9f9890ac446901b9ab846e0e93
+solution/.ipynb_checkpoints/demux.stats-checkpoint.tsv,92009b1ceb62d9b7455508f68953f9c8
