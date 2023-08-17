@@ -6,6 +6,7 @@ MIIM-620S
 2. [Layout](#repository-layout)
 3. [Schedule](#weekly-schedule)
 4. [Projects](projects/README.md)
+5. [Grading](grading/README.md)
 
 ## Course 
 
