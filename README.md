@@ -1,80 +1,81 @@
-# Drexel Medicine OMICS
+# Drexel Medicine Advanced OMICS
+MIIM-620S
+[Blackboard (Bb) Learn course site](https://learn.dcollege.net/)
 
-## [Week 1 Summary: Intro to JupyterHub, Linux and GitHub](#week-1-details-intro-to-jupyterhub-linux-and-github-1)
+1. [Course](#course)
+2. [Layout](#repository-layout)
+3. [Schedule](#weekly-schedule)
+4. [Projects](projects/README.md)
 
-1. [Log in to Drexel Medicine JupyterHub](#1-log-in-to-drexel-medicine-jupyterhub)
-2. [Open a terminal window in JupyterHub](#2-open-a-terminal-window-on-jupyterhub)
-3. [Make a directory to store your projects (w/Linux commands)](#3-make-a-directory-to-store-your-projects-wlinux-commands)
-4. [Commit (save vertion) and backup your project (w/GitHub)](#4-save-and-backup-your-projects-wgithub)
-5. [Lab instructions](#5-week-1-lab-instructions)
+## Course 
 
+### Course Description
 
-# Weekly Details
+Recent advances in molecular biology and computational achievements have generated an explosion of data that surveys biological processes on a massive scale.
+Collectively referred to as ‘omics scale data, these techniques have revolutionized our ability to explore complex phenotypes in microbiology & immunology.
+This course covers the history, application, and computational analysis of ‘omics scale data and provides hands-on analysis experience. 
 
-## Week 1 Details: Intro to JupyterHub, Linux and GitHub
+### Course Objectives
 
-### 1. Log in to Drexel Medicine JupyterHub
-* Install Drexel Medicine VPN: https://drexel.edu/it/help/a-z/VPN/
-* Login to the Drexel Medicine:
-<p><img src="/doc/images/wk01a_vpn_login.png" alt="Connect" width="400"></p>    
-<p><img src="/doc/images/wk01b_vpn_login.png" alt="Login"   width="400"></p>    
-<p><img src="/doc/images/wk01c_vpn_login.png" alt="Accept"  width="400"></p>    
+1. Recognize popular next-generation sequencing technologies and distinguish their appropriate uses. 
+2. Recognize how to apply OMICS scale techniques to multiple facets of microbiology and immunology. 
+3. Design OMICS scale experiments to inspect biological functions across DNA, RNA, and proteins. 
+4. Perform basic terminal activities such as moving, copying, inspecting files, and calling installed tools as well as employ pipes to chain small functions together to create complex analyses. 
+5. Utilize Jupyter Notebooks to perform data analysis and visualization of OMICS scale data. 
+6. Practice presenting OMICS scale data analysis to both traditional & computational biological audiences. 
 
-### 2. Open a terminal window on JupyterHub
-#### 2a. Open JupyterHub
-http://10.11.19.24/
+### Faculty Team
 
-#### 2b. Open a terminal window
-In web browser, from JupyterLab menu:    
-```
-File -> New -> Terminal
-```
+| Instructor              |ABC| Role
+|-------------------------|---|-------------------------------
+| Dr. Will Dampier        |WND| Co-Director, Instructor
+| Dr. Joshua Earl         |JPE| Instructor
+| Dr. Katherine Innamorti |KAI| Instructor
+| Dr. DV Klopfenstein     |DVK| Instructor
+| Dr. Joshua Chang Mell   |JCM| Co-Director, Instructor
 
+### Major Learning Activities 
 
-### 3. Make a directory to store your projects (w/Linux commands):
-In the terminal window that you just opened, type each command and press the [Enter] button:    
-* Show the name of your home directory (`pwd`)
-* Show contents of your home directory (`ls`)
-* Make a new directory to store your projects (`mkdir repos`)
-* Change to your new directory (`cd repos`)
-
-### 4. Save and backup your projects (w/GitHub)
-* Create an account on https://github.com
-* Copy the Drexel Medicine OMICS project to your GitHub account (fork)
-* Download a copy to your PC (`git clone https://github.com/<your_profile>/OMICS`)    
-
-### 5. Week 1 Lab Instructions
-#### 5a. Create a batch file, `week01_lab.sh` which contains all commands from step 2:
-`nano` is a command-line text editor.    
-But you can use your favorite editor:
-  * `nano week01_lab.sh`
-  * `vim week01_lab.sh`
-  * `emacs week01_lab.sh`
-```
-$ cd ~/repos/OMICS
-$ nanno week01_lab.sh
-```
-#### 5b. Commit `week01_lab.sh` to your local disk:
-```
-$ cd ~/repos/OMICS
-$ git add week01_lab.sh
-$ git commit week01_lab.sh -m 'Adding lab batch file'
-```
-#### 5c. Backup your work to GitHub:
-```
-$ git remote -v
-origin 	https://github.com/[studentrepo]/OMICS.git (fetch)
-origin 	https://github.com/[studentrepo]/OMICS.git (push)
-$ git branch
-* main
-$ git push origin main
-```
-
-#### 5d. Run your batch file:
-```
-source week01_lab.sh | tee week01_lab.txt
-```
+| Name               | Grade  | Description
+|--------------------|--------|-----------------------
+|Class Participation | 25%    | Participation in weekly lecture and in-class learning activities.
+|Weekly Assignment   | 50%    | Completing weekly assignments
+|Project             | 25%    | Weekly analysis of your own dataset
 
 
+## Respository Layout
+
+This repository contains all of the learning content for the course and will be the way you submit all assignments.
+
+The `content` folder contains the learning content organized by week.
+You will `pull` this from the main repository each week.
+
+Within each week's assignment you will be asked to create a `notes_{github-user}.md` file as you complete the assignments in each week's folder.
+As you complete the assignment you will commit these notes and when complete, make PRs to the main repository.
+This is how you will _submit_ assignments.
+
+The `projects` folder contains information about the ongoing project and is where you will keep information and notes.
+
+
+## Weekly Schedule
+
+|Week                         |Date       |Module               | Topic                                  |Instructors   | Status 
+|-----------------------------|-----------|---------------------|----------------------------------------|--------------|-------
+|[ 1](/content/wk01/Readme.md)|08/22/2023 | Hello World         | Course intro, git, & JupyterHub        |DVK, KAI      | unreleased
+|[ 2](/content/wk02/Readme.md)|08/29/2023 | Hello World         | Basic terminal navigation              |DVK, KAI      | unreleased
+|[ 3](/content/wk03/README.md)|08/22/2023 | Hello World         | Sequencing datasets & terminal analysis|WND, JCM      | draft
+|[ 4](/content/wk04/Readme.md)|09/05/2023 | Align all the things| NGS read alignment                     |WND, JCM      | unreleased
+|[ 5](/content/wk05/Readme.md)|09/12/2023 | Align all the things| Counting aligned reads                 |WND, JCM      | unreleased
+|[ 6](/content/wk06/Readme.md)|09/19/2023 | Align all the things| Variant calling                        |WND, JCM      | unreleased
+|[ 7](/content/wk07/Readme.md)|09/26/2023 | Align all the things| Interpreting variant effects           |WND, JCM      | unreleased
+|[ 8](/content/wk08/Readme.md)|10/03/2023 | OMICS as count table| Transcriptomics                        |WND, JCM      | unreleased
+|[ 9](/content/wk10/Readme.md)|10/10/2023 | OMICS as count table| Statistical Analysis of Count-Data     |WND, JCM      | unreleased
+|[10](/content/wk09/Readme.md)|10/17/2023 | OMICS as count table| Peak analysis in OMICS data (ChIP-Seq) |WND, JCM      | unreleased
+|[11](/content/wk11/Readme.md)|10/24/2023 | OMICS as count table| Gene Ontology                          |DVK           | unreleased
+|[12](/content/wk12/Readme.md)|10/31/2023 | OMICS as count table| Gene Ontology Enrichment Analysis      |DVK           | unreleased
+|[13](/content/wk13/Readme.md)|11/07/2023 | Genome Comparisons  | Microbiome creation                    |JPE, KAI      | unreleased
+|[14](/content/wk14/Readme.md)|11/14/2023 | Genome Comparisons  | Microbiome analysis                    |JPE, KAI      | unreleased
+|[15](/content/wk15/Readme.md)|11/28/2023 | Genome Comparisons  | Microbiome metrics                     |JPI, KAI      | unreleased
+|[16](/content/wk16/Readme.md)|12/05/2023 |                     | Future directions in OMICS             |Everyone      | unreleased
 
 Copyright (C) 2023-present, Drexel Medicine. All rights reserved
