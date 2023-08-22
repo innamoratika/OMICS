@@ -4,7 +4,7 @@
 2. [Learning Objectives](#learning-objectives)
 3. [Review Material](#review-material)
 4. [Lecture Material](OMICS_git.pdf)
-5. [Assignment](Assignment.md)
+5. [Assignment](omics_assignment.md)
 6. [Project](#project)
 
 ## Introduction
@@ -47,7 +47,7 @@ This class will begin to show how to interact with these amazing projects.
 
 Set up your OMICS project directory using git and GitHub.
 
-In week 1's [assignment](Assignment.md) you will create your own
+In week 1's [assignment](omics_assignment.md) you will create your own
 project directory (`OMICS/projects/yourgitname`) in this OMICS repo and
 initialize it with a `README.md`.
 
