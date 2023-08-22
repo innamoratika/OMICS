@@ -4,10 +4,11 @@ __copyright__ = "Copyright (C) 2023-present, Drexel Medicine. All rights reserve
 __author__ = "Will Dampier, PhD"
 
 import csv
-import hashlib
 import os
+
 import pytest
 
+from drexelmed_courses.hashing import md5
 
 def read_csv(file_path):
     """Read the CSV file and yield file paths and MD5 checksums."""
@@ -16,16 +17,6 @@ def read_csv(file_path):
         next(reader)  # skip header
         for row in reader:
             yield row[0], row[1]
-
-
-def md5(filename):
-    """Calculate the MD5 checksum of a file."""
-    hash_md5 = hashlib.md5()
-    with open(filename, "rb") as handle:
-        for chunk in iter(lambda: handle.read(4096), b""):
-            hash_md5.update(chunk)
-    return hash_md5.hexdigest()
-
 
 # Reading the CSV and collecting file paths and their expected md5 checksums
 file_data = list(read_csv("tests/solutions.csv"))
