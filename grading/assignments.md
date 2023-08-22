@@ -5,5 +5,5 @@ Your final assignment grade will be the percentage of complete assignments and w
 
 |Week | PurpleKestral   | MaryCMarino   | BCDuffy   | Sneffah89 
 |-----|-----------------|---------------|-----------|-----------
-| 1   |                 |               |           |           
+| 1   | complete        | complete      | complete  | complete  
 
