@@ -1,0 +1,9 @@
+# we are learning some commands
+- `ls` - list
+- `cd` - change directory repos/
+- `git clone` - cloning a repository
+- `pwd` - present working directory
+- `cat` - concatenate a file 
+- `history` - what did we do
+- `less` - look at a large file
+- `head` - first ten lines
