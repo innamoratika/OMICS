@@ -8,7 +8,10 @@
 * [**1. Open your JupyterHub terminal**](#1-open-your-jupyterhub-terminal)
 * [**2. Generate a new SSH key**](#1-generate-a-new-ssh-key) onto your JupyterHub account
 * [**3. Add your SSH key to your GitHub account**](#3-add-your-ssh-key-to-your-github-account)
-* [**4. Ensure remote, **`origin`** is set to SSH remote]()
+* [**4. Ensure remote, `origin`, is set to SSH remote**](#4-ensure-remote-origin-is-set-to-ssh-remote)
+* [**Notes**](#notes)
+  * [`$ git config pull.rebase true']()
+
 
 ## Helpful Links
 * [Generating a new SSH key and adding to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
@@ -94,7 +97,7 @@ origin_https    	https://github.com/dvklopfenstein/OMICS.git (fetch)
 origin_https    	https://github.com/dvklopfenstein/OMICS.git (push)
 ```
 
-### 4c. Add remote, **`origin`** as SSH-style
+### 4c. Add remote, **`origin`**, as SSH-style
 ```
 $ git remote add origin git@github.com:dvklopfenstein/OMICS.git
 
@@ -103,6 +106,53 @@ origin 	git@github.com:dvklopfenstein/OMICS.git (fetch)
 origin 	git@github.com:dvklopfenstein/OMICS.git (push)
 origin_https    	https://github.com/dvklopfenstein/OMICS.git (fetch)
 origin_https    	https://github.com/dvklopfenstein/OMICS.git (push)
+```
+
+### 5. Do: `git push`
+```
+```
+
+## Notes:
+### `$ git config pull.rebase true`
+Do this:    
+```
+$ git config pull.rebase true
+
+
+```
+
+If you see this:    
+```
+hint: You have divergent branches and need to specify how to reconcile them.
+hint: You can do so by running one of the following commands sometime before
+hint: your next pull:
+hint:
+hint:   git config pull.rebase false  # merge
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint:
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+```
+
+### If your `push` hangs
+Restart your ssh agent, if your `push` hangs:
+```
+killall ssh-agent; eval `ssh-agent`
+```
+
+If you see your `push` hanging:
+```
+$ git push origin dvk
+Enter passphrase for key '/home/dvklo/.ssh/id_ed25519':
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (15/15), 525.89 KiB | 4.21 MiB/s, done.
+Total 15 (delta 2), reused 0 (delta 0), pack-reused 0
 ```
 
 
