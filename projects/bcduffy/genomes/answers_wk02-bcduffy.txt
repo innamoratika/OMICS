@@ -4,3 +4,12 @@ What commands to move your dataset to /genomes?# cp -r ~/share/courses/OMICS/wk0
 
 What is the path to /genomes?
 ~/repos/OMICS/projects/bcduffy/genomes
+
+Which command is best for viewing the genome files? I like the head command best because it lets me see the annotations at the top of the genome sequence. I do not really need to scroll through the whole sequence.
+
+Which file is largest? GCA_018141805.1_ASM1814180v1_genomic.fna
+Which file is smallest?GCA_002892595.1_ASM289259v1_genomic.fna
+
+What command lists file sizes? ls -l
+What does the -l flag mean? long list
+What does the -h flag mean? human readable
