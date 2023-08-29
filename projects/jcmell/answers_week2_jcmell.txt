@@ -1,3 +1,4 @@
 1. ls ~/share/courses/OMICS/wk02_dataset
 2. cp -r ~/share/courses/OMICS/wk02_dataset .
 3. ~/share/courses/OMICS/
+4. head, so I could tell what it is. but grep, since I knew it was a fasta
