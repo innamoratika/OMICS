@@ -3,11 +3,11 @@
 1. [Introduction](#introduction)
 2. [Learning Objectives](#learning-objectives)
 3. [Review Material](#reading-material)
-4. [Lecture Material](lecture.md)
 5. **Assignments**
   * [Git Lab 1. Make small successful changes to your README.md & commit many times](Assignment_01_commits.md)
   * [Git Lab 2. README.md commit differences](Assignment_02_commit_diffs.md)
   * [Git Lab 3. Get an old README.md](Assignment_03_show.md)
+  * [Git lab 4. Get an SSH key](Assignment_04_SSH_key.md)
 6. [Project](#project)
 
 ## Introduction
