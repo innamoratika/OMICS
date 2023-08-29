@@ -1,0 +1,3 @@
+1. To find the original dataset directory: cd (to change working directories) and ls (to see the contents of the directory)
+2. To move my dataset to genomes: cp -r ~/share/courses/OMICS/wk02_dataset/ ~/repos/OMICS/projects/marycmarino/genomes/
+3. Path to /genomes = ~/repos/OMICS/projects/marycmarino/genomes
