@@ -1,6 +1,6 @@
 # Greetings and Salutations!
 
-jcmell is my github name.
+jcmell is my github name. learning omics is my game.
 
 
 **Bold**  *Italics*
