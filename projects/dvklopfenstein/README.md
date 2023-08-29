@@ -1,3 +1,1 @@
-# DVK's Project
-Hello!
-Hello again
+# DVK's project
