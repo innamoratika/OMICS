@@ -5,7 +5,8 @@
 3. [Review Material](#reading-material)
 4. [Lecture Material](lecture.md)
 5. **Assignments**
-  * [Make small successful changes to your README.md & commit many times](Assignment_01_commit.md)
+  * [Git Lab 1. Make small successful changes to your README.md & commit many times](Assignment_01_commits.md)
+  * [Git Lab 2. README.md commit differences](Assignment_02_commit_diffs.md)
 6. [Project](#project)
 
 ## Introduction
@@ -53,12 +54,13 @@ work faster on the command line.
 
 ## Reading Material
 
- - [Video](https://www.youtube.com/watch?v=_olpuoicdII) - Multiplexing and molecular barcodes (indexes) in NGS (Next Gen Sequencing). the bumbling biochemist
+ - [Link: How to read git diff output](https://stackoverflow.com/questions/2529441/how-to-read-the-output-from-git-dif)
 
 ## Project
 
 For your project.
- - Download sequencing data from the short read archive using `fasterq-dump`. Due to the bandwidth and computational requirements of this process, we may need to schedule this asynchronously.
- - Use `seqkit stats` to generate a report.
- - Write a markdown file that describes your dataset. Include that seqkit stats table as a markdown table.
- - Describe the number of reads per sample in your study. Does it tell you anything interesting?
+ - Make numerous changes to your project README.md and commit them
+ - Get a list of the changes you have made to your README.md
+ - Find the changes in the README.md file between various commit versions
+
+Copyright (C) 2023-present, Drexel Medicine. All rights reserved
