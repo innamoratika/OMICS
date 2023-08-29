@@ -12,7 +12,7 @@ Learn how to use `git log` and `git diff` to see the differences between file ve
 
 
 # Walkthrough
-### Get a lisr of your commit logs and hashes (ids)
+### Get a list of your commit logs and hashes (ids)
 #### Command
 ```
 $ git log --oneline -- README.md
