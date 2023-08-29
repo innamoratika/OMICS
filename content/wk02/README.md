@@ -7,6 +7,7 @@
 5. **Assignments**
   * [Git Lab 1. Make small successful changes to your README.md & commit many times](Assignment_01_commits.md)
   * [Git Lab 2. README.md commit differences](Assignment_02_commit_diffs.md)
+  * [Git Lab 3. Get an old README.md](Assignment_03_show.md)
 6. [Project](#project)
 
 ## Introduction
