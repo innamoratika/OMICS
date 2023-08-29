@@ -2,6 +2,8 @@
 
 jcmell is my github name.
 
+**Bold** *Italics*
+
 ```
     1  ls
     2  ls projects/
