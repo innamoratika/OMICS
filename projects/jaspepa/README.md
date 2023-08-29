@@ -1,9 +1,10 @@
 Hello world
-Command 1: ls lists files in a directory. ls-l for long version and ls-lh for long and human readable 
-Command 2: pwd identifies present working directory 
-Command 3: cd changes directory 
-Command 4: nano edits a file 
-Command 5: mkdir makes a directory 
+Linux command line commands: 
+ls lists files in a directory. ls-l for long version and ls-lh for long and human readable 
+pwd identifies present working directory 
+cd changes directory 
+nano edits a file 
+mkdir makes a directory 
 Git commands: 
 repo - repository 
 fork - version in specific person's repository 
