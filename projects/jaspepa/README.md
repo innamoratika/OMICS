@@ -4,3 +4,8 @@ Command 2: pwd identifies present working directory
 Command 3: cd changes directory 
 Command 4: nano edits a file 
 Command 5: mkdir makes a directory 
+Git commands: 
+repo - repository 
+fork - version in specific person's repository 
+clone - version to move to jupyter etc 
+commit - save version 
