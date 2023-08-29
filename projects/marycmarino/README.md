@@ -2,6 +2,7 @@
 # updated 2023-08-29
 
 
+# Important Commands
 cd - change directories
 	* . = stay where you are
 	* .. = move up one directory
@@ -16,7 +17,7 @@ clear - delete everything in your terminal
 more - read a file in another window, read only (good for large files)
 less - read a file in another window, scroll through bit by bit, read only (good for large files)
 
-other vocab:
+# Other Vocab:
 - upstream: original github page on Will's account
 - origin: my copy of Will's github page
 
