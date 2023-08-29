@@ -1,0 +1,5 @@
+### leanie 2023 29 08
+1. ls on the home directory --> share/
+2. cp share/ repos/project/purplekestrel/
+2.5 mv share/ genomes/
+3. (pwd) repos/project/purplekestrel/
