@@ -19,3 +19,5 @@ Walk students through the assignment.
 # Tests
 
 What should they run to test their code.
+
+Copyright (C) 2023-present, Drexel Medicine. All rights reserved
