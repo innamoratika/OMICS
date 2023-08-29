@@ -8,3 +8,4 @@ omics
 ## ideas list   
 - look at MLST14 
 - can we look at other spp? e coli 
+- made an ssh pub/priv key pair
