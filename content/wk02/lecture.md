@@ -68,6 +68,7 @@ $ ls -lrt ~/.ssh/id_ed25519
 If your permissions are not `-rw-------`, do this:
 ```
 chmod 600 /home/jupyter-abc/.ssh/id_ed25519.pub
+
 ```
 
 ### 2c. Start the ssh-agent in the background
