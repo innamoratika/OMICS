@@ -1,0 +1,6 @@
+What commands did you use to find the original dataset directory?# cd ~/share/courses/OMICS/wk02_dataset, ls#
+
+What commands to move your dataset to /genomes?# cp -r ~/share/courses/OMICS/wk02_dataset/ . #, cd and ls to verify
+
+What is the path to /genomes?
+~/repos/OMICS/projects/bcduffy/genomes
