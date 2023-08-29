@@ -26,7 +26,7 @@
 ## 2. Generate a new SSH key in your terminal window
 ### 2a. Generate a new SSH key
 ```
-$ ssh-keygen -t ed25519 -C "your_email@example.com"
+$ ssh-keygen -t ed25519 -C comment
 ```
 * `-t type_of_key`
 * `-C comment`
@@ -59,30 +59,31 @@ The key's randomart image is:
 |                 |
 +----[SHA256]-----+
 ```
-### 2b. Look at the permissions on your SSH key
-Your permissions should be `-rw-------`
+
+#### Two SSH files are created: Public and Private
+The public part of the key will be stored on GitHub `~/.ssh/id_ed25519.pub` and will travel on the internet.    
+The private part of the key stays in `~/.ssh/id_ed25519` and is never seen by anyone but you.    
+The two parts work together to ensure security.
+
 ```
-$ ls -lrt ~/.ssh/id_ed25519
--rw------- 1 jupyter-abc jupyter-abc 387 Aug 28 14:27 /home/jupyter-abc/.ssh/id_ed25519
-```
-If your permissions are not `-rw-------`, do this:
-```
-chmod 600 /home/jupyter-abc/.ssh/id_ed25519.pub
+ls -l ~/.ssh/id*
+-rw------- 1 jupyter-abc jupyter-abc 399 Aug 28 14:45 /home/jupyter-abc/.ssh/id_ed25519
+-rw-r--r-- 1 jupyter-abc jupyter-abc  88 Aug 28 14:45 /home/jupyter-abc/.ssh/id_ed25519.pub
 ```
 
-### 2c. Start the ssh-agent in the background
+### 2b. Start the ssh-agent in the background
 ```
 $ eval "$(ssh-agent -s)"
 Agent pid 1234567
 ```
 
-### 2d. Add your SSH private key to the ssh-agent
+### 2c. Add your SSH private key to the ssh-agent
 ```
 $ ssh-add ~/.ssh/id_ed25519
 Identity added: /home/jupyter-abc/.ssh/id_ed25519 (dvk_MN)
 ```
 
-### 2e. Copy the contents of the id_ed25519.pub file to your clipboard
+### 2d. Copy the contents of the id_ed25519.pub file to your clipboard
 #### Open the file
 ```
 $ nano ~/.ssh/id_ed25519.pub
