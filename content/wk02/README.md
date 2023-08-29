@@ -4,7 +4,8 @@
 2. [Learning Objectives](#learning-objectives)
 3. [Review Material](#reading-material)
 4. [Lecture Material](lecture.md)
-5. [Assignment](assignment.md)
+5. **Assignments**
+  * [Make small successful changes to your README.md & commit many times](Assignment_01_commit.md)
 6. [Project](#project)
 
 ## Introduction
