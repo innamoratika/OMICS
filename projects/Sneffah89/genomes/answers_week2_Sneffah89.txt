@@ -1,8 +1,22 @@
 1. To find the original dataset directory: cd (to change working directory) and ls (to list the contents of the directory)
+
+cd ~/repos/OMICS/projects/Sneffah89/
+ls -l
+total 9336
+-rw-r--r-- 1 jupyter-kai37 jupyter-kai37 2396684 Aug 29 08:56 GCA_001263815.1_ASM126381v1_genomic.fna
+-rw-r--r-- 1 jupyter-kai37 jupyter-kai37 2373375 Aug 29 08:56 GCA_002892595.1_ASM289259v1_genomic.fna
+-rw-r--r-- 1 jupyter-kai37 jupyter-kai37 2405518 Aug 29 08:56 GCA_018141805.1_ASM1814180v1_genomic.fna
+-rw-r--r-- 1 jupyter-kai37 jupyter-kai37 2375241 Aug 29 08:56 GCA_023822425.1_ASM2382242v1_genomic.fna
+
 2. To move my dataset to genomes:cp -r ~/share/courses/OMICS/wk02_dataset/ ~/repos/OMICS/projects/Sneffah89/genomes/
+
 3.Path to my genomes folder: ~/repos/OMICS/projects/Sneffah89/genomes
+
 4. All commands like head, tail or less might be useful depending on what I would like to view about my data. But I would go with less since I can view text files on a screen page at a time
+
 5. All four files are approximately the same size, however the file with 2373375 letters is the smallest while the file with 2405518 letters is the largest
-6. The command ls -lh lists the file sizes
+
+6. The command 'ls -lh' and 'ls -l' lists the file sizes
+
 7. The flag -h stands for “ human readable” and the flag -l stands for “ long listing format”
 

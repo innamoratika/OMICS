@@ -1,3 +1,0 @@
-1. ls ~/share/courses/OMICS/wk02_dataset/
-2. cp -r ~/share/courses/OMICS/wk02_dataset/ .
-3. ~/share/courses/OMICS/wk02_dataset/ 
