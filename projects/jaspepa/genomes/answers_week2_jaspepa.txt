@@ -1,0 +1,5 @@
+1. To find the original dataset directory, I used cd (change directory) command to go to ~, then ~/share/courses/OMICS/wk02_dataset/. Some of these steps I used the ls command for a list of files in a file. 
+2. To move the dataset to /genomes, I used mkdir to make the /genomes directory, and then cp to copy the wk02_dataset. 
+3. The path to /genomes is ~/repos/OMICS/projects/jaspepa/genomes. 
+4. I like the head command for viewing this file because it has the label and does not have the entire non-human readable DNA sequence. 
+5. GCA_002892595.1_ASM289259v1_genomic.fna (2373375 bytes) is smallest and 2405518 GCA_018141805.1_ASM1814180v1_genomic.fna (2405518 bytes) is largest
