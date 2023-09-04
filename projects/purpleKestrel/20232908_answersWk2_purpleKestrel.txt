@@ -1,0 +1,7 @@
+### leanie 2023 29 08
+1. ls on the home directory --> share/
+2. cp share/ repos/project/purplekestrel/
+2.5 mv share/ genomes/
+3. (pwd) repos/project/purplekestrel/
+4. i like using head for these files --> i can quickly see the file type and the first seq
+5. ls -ll lists the sizes of the fnas --> all are 2.3M, smallest is GCA_238... 
