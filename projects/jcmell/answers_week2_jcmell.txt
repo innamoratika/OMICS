@@ -1,0 +1,9 @@
+1. ls ~/share/courses/OMICS/wk02_dataset
+2. cp -r ~/share/courses/OMICS/wk02_dataset .
+3. ~/share/courses/OMICS/
+4. head, so I could tell what it is. but grep, since I knew it was a fasta
+5. largest file: GCA_018141805.1_ASM1814180v1_genomic.fna
+6. smallest file: GCA_002892595.1_ASM289259v1_genomic.fna
+7. ls -l gives long format
+8. ls -lh gives human-readable sizes
+
