@@ -31,3 +31,5 @@ SRR23803538.fastq             FASTQ   DNA         89   12,751       72    143.3 
 SRR23803538.trimmed.fastq.gz  FASTQ   DNA         89   12,039       64    135.3      151
 SRR23803539.fastq             FASTQ   DNA         10    1,403      104    140.3      159
 SRR23803539.trimmed.fastq.gz  FASTQ   DNA         10    1,323       96    132.3      151
+
+The number of reads is the same for fastq and trimmed.fastq.gz files for each sample. However read length differs and it smaller for trimmed.fastq.gz files compared to the fastq files. Again the number of reads for fastq and trimmed.fastq.gz files for each sample decrease in the order SRR23803536 > SRR23803537 > SRR23803538 > SRR23803539. The read length also differ between samples.
