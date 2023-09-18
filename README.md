@@ -66,7 +66,7 @@ The `projects` folder contains information about the ongoing project and is wher
 |[**2**](/content/wk02/README.md)|08/29/2023 | Hello World         | Terminal + git: push & "Pull Requests" |DVK, KAI      | released
 |[**3**](/content/wk03/README.md)|09/05/2023 | Hello World         | Sequencing datasets & terminal analysis|WND, JCM      | released
 |[**4**](/content/wk04/README.md)|09/12/2023 | Align all the things| NGS read alignment                     |WND, JCM      | released
-|   5                            |09/19/2023 | Align all the things| Counting aligned reads                 |WND, JCM      | unreleased
+|[**5**](/content/wk05/README.md)|09/19/2023 | Align all the things| Counting aligned reads                 |WND, JCM      | released
 |   6                            |09/26/2023 | Align all the things| Variant calling                        |WND, JCM      | unreleased
 |   7                            |10/03/2023 | Align all the things| Interpreting variant effects           |WND, JCM      | unreleased
 |   8                            |10/10/2023 | OMICS as count table| Transcriptomics                        |WND, JCM      | unreleased
