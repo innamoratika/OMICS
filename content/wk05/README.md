@@ -22,7 +22,7 @@ See [`assignment.md`](assignment.md) for details.
 
 Align your reads, if they are not already.
 Generate coverage estimates based on the number of reads and your genome size.
-Then, use `samtools consensus` to observe the coverage across the different chromosomes.
+Then, use `samtools coverage` to observe the coverage across the different chromosomes.
 Use the binned histogram, are there an notable "holes" in your alignments?
 
 Update your project folder with the commands you used and the results you observed.
