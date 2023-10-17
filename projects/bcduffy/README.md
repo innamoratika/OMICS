@@ -6,4 +6,7 @@ Advanced Omics Project
 28Aug2023: Generated SSH keys
  Data set ideas:
 	*Tat RNAseq read files
-'''
+
+15Sep2023: Created project directory in 'common' directory, separate from repos.
+Transferred read files from Kortagere lab server using rsync command, imported the
+reference transcriptome, and created the [data read me file](http://10.11.19.48/hub/user-redirect/lab/tree/common/LoTat101PFC/data_readme.md)
