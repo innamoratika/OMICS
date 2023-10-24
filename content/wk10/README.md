@@ -25,8 +25,14 @@ Vim is popular because it offers many advantages:
 * [Why and How to use vim as a text editor](https://mr-destructive.github.io/techstructive-blog/vim-text-editor-ide/)
 
 # Assignment
-* Quit vim
-* Compare vim movements with movements in `less`
+
+|N|keys           | Description
+|-|---------------|------------------------------------
+|1|`:q`           | Quit vim
+|2|`i j k l`      | Move cursor one character at a time
+|3|`iTEXT<Esc>:wq'| Insert text in --INSERT-- mode and save
+|4|`gg` and `G`   | Move cursor to top and bottom of file:
+|2|Compare vim movements with movements in `less`
 
 
 Copyright (C) 2023-present, Drexel Medicine. All rights reserved.
