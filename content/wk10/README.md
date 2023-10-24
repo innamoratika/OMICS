@@ -20,6 +20,7 @@ Vim is popular because it offers many advantages:
 
 # Reading Material
 
+* [vim cheat sheet](https://vim.rtorr.com/)
 * [Why, of WHY, do those #?@! nutheads use vi?](http://www.viemu.com/a-why-vi-vim.html)
 * [vim documentation on-line](https://vimdoc.sourceforge.net/htmldoc/usr_toc.html)
 * [Why and How to use vim as a text editor](https://mr-destructive.github.io/techstructive-blog/vim-text-editor-ide/)

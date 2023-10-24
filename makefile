@@ -1,6 +1,8 @@
+hello:
+	@echo Welcome to the Advanced OMICS course
 
 vim_sandbox: $(WORK)
-	cd content/wk10; make -f makefile mk_sandbox
+	@cd content/wk10; make -f makefile mk_sandbox
 
 
 sep := '--------------------------------------------------'
