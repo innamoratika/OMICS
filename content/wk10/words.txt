@@ -1,0 +1,10 @@
+# WORDS are not words
+
+To fulfill the prophecy you have to understand VIM words!
+A word is a sequence of letters, digits, and underscores,
+or a sequence of puctuation marks, or an empty line.
+
+A WORDs are separated by spaces.
+
+`w`, `b`, and `e` will help you navigate words.
+`W`, `B`, and `E` will help you navigate WORDS.

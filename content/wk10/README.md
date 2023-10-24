@@ -23,16 +23,19 @@ Vim is popular because it offers many advantages:
 * [Why, of WHY, do those #?@! nutheads use vi?](http://www.viemu.com/a-why-vi-vim.html)
 * [vim documentation on-line](https://vimdoc.sourceforge.net/htmldoc/usr_toc.html)
 * [Why and How to use vim as a text editor](https://mr-destructive.github.io/techstructive-blog/vim-text-editor-ide/)
+* [vim keypresses on stackoverflow](https://stackoverflow.com/questions/5400806/what-are-the-most-used-vim-commands-keypresses)
 
 # Assignment
 
-|N|keys           | Description
-|-|---------------|------------------------------------
-|1|`:q`           | Quit vim
-|2|`i j k l`      | Move cursor one character at a time
-|3|`iTEXT<Esc>:wq'| Insert text in --INSERT-- mode and save
-|4|`gg` and `G`   | Move cursor to top and bottom of file:
-|2|Compare vim movements with movements in `less`
+|N|keys              | Description
+|-|------------------|------------------------------------
+|1|`:q`              | Quit vim
+|2|`i j k l`         | Move cursor one character at a time
+|3|`iTEXT<Esc>:wq'   | Insert text in --INSERT-- mode and save
+|4|`gg` and `G`      | Move cursor to top and bottom of file:
+|4|`ggoTOP<Esc>:wq`  | Go to the top of a file; open a new line; insert "TOP"; write and quit
+|5|`gg` & `G` & `:wq`| Compare vim movements with movements in Linux  command, `less`
+|6|`$`               | Move to the end of the line
 
 
 Copyright (C) 2023-present, Drexel Medicine. All rights reserved.
