@@ -1,4 +1,8 @@
 
+vim_sandbox: $(WORK)
+	cd content/wk10; make -f makefile mk_sandbox
+
+
 sep := '--------------------------------------------------'
 g:
 	@echo ''
@@ -13,3 +17,5 @@ g:
 	@echo $(sep)
 	@echo 3. LOCAL git branch
 	git branch
+
+
