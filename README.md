@@ -69,10 +69,10 @@ The `projects` folder contains information about the ongoing project and is wher
 | [**4**](/content/wk04/README.md)|09/12/2023 | Align all the things| NGS read alignment                     |WND, JCM      | released
 | [**5**](/content/wk05/README.md)|09/19/2023 | Align all the things| Counting aligned reads                 |WND, JCM      | released
 | [**6**](/content/wk06/README.md)|09/26/2023 | Align all the things| Variant calling                        |WND, JCM      | released
-| [**7**](/content/wk07/README.md)|10/03/2023 | Align all the things| Interpreting variant effects           |WND, JCM      | released
-| [**8**](/content/wk08/README.md)|10/10/2023 | OMICS as count table| Transcriptomics                        |WND, JCM      | released
+|    7                            |10/03/2023 | Align all the things| Interpreting variant effects           |WND, JCM      | released
+|    8                            |10/10/2023 | OMICS as count table| Transcriptomics                        |WND, JCM      | released
 | [**9**](/content/wk09/README.md)|10/17/2023 | OMICS as count table| Statistical Analysis of Count-Data     |WND, JCM      | released
-|[**10**](/content/wk10/hEADME.md)|10/24/2023 | OMICS as count table| Introduction to the powerful vim editor|DVK           | released
+|[**10**](/content/wk10/README.md)|10/24/2023 | OMICS as count table| Introduction to the powerful vim editor|DVK           | released
 |   11                            |10/31/2023 | OMICS as count table| Gene Ontology Enrichment Analysis      |DVK           | unreleased
 |   12                            |11/07/2023 | OMICS as count table| Peak analysis in OMICS data (ChIP-Seq) |WND, JCM      | unreleased
 |   13                            |11/14/2023 | Genome Comparisons  | Microbiome creation                    |JPE, KAI      | unreleased
