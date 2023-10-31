@@ -1,6 +1,13 @@
 hello:
 	@echo Welcome to the Advanced OMICS course
 
+# ------------------------------------------------------
+sandbox: $(WORK)
+	@make goea_sandbox
+
+goea_sandbox: $(WORK)
+	@cd content/wk11; make -f makefile mk_sandbox
+
 vim_sandbox: $(WORK)
 	@cd content/wk10; make -f makefile mk_sandbox
 

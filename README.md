@@ -73,7 +73,7 @@ The `projects` folder contains information about the ongoing project and is wher
 |    8                            |10/10/2023 | OMICS as count table| Transcriptomics                        |WND, JCM      | released
 | [**9**](/content/wk09/README.md)|10/17/2023 | OMICS as count table| Statistical Analysis of Count-Data     |WND, JCM      | released
 |[**10**](/content/wk10/README.md)|10/24/2023 | OMICS as count table| Introduction to the powerful vim editor|DVK           | released
-|   11                            |10/31/2023 | OMICS as count table| Gene Ontology Enrichment Analysis      |DVK           | unreleased
+|[**11**](/content/wk11/README.md)|10/31/2023 | OMICS as count table| Gene Ontology Enrichment Analysis      |DVK           | released
 |   12                            |11/07/2023 | OMICS as count table| Peak analysis in OMICS data (ChIP-Seq) |WND, JCM      | unreleased
 |   13                            |11/14/2023 | Genome Comparisons  | Microbiome creation                    |JPE, KAI      | unreleased
 |   14                            |11/21/2023 | Genome Comparisons  | Microbiome analysis                    |JPE, KAI      | unreleased
