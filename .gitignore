@@ -1,5 +1,7 @@
 # OMICS_dev
+*.obo
 /work/
+.ipynb_checkpoints
 
 
 # Byte-compiled / optimized / DLL files
