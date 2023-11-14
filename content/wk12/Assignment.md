@@ -14,7 +14,7 @@ or so, however misunderstandings about the underlying data are common.
 By the end of class today you should be able to comfortably answer these questions:
 1.	Explain what a 'molecular diagnostic' is in the context of microbiome analysis and how does that differ from a traditional microbial presence assay?
 2.	Define what gene is most commonly used to identify if an organism is present in some sample?
-3.	Name three important characteristics about why this gene is used.
+3.	Name three important characteristics that explain why this gene is used.
 4.	Understand the basic laboratory process required to sequence a microbiome.
 5.	Define PCR, and be able to describe the steps.
 6.	Identify some potential pitfalls one could encounter because of the PCR step?
@@ -53,29 +53,38 @@ Some of the data we are going to be using takes long paths, and it is a pain to 
 Let's fix that with a few steps.
 
 1. Bin Directory
-	- You can (and should) make a bin directory in your home folder.  This directory is automatically added to your path when you log in.
-	- `mkdir ~/bin`
+	- You can (and should) make a bin directory in your home folder.
+	- what/where is your home folder? Find out with this command: 
+		- `echo $HOME`
+	- These change directory commands are equivalent and all bring you to your home: 
+		- `cd $HOME` `cd ~` or just `cd` ('~' is a shortcut for 'home' - you will see this a lot) 
+	- The ~/bin directory is automatically added to your path when you log in, once it is made with this command:
+		- `mkdir ~/bin`
 	- To reload your environment run this command (this is called 'sourcing' the profile file):
-	- `. ~/.profile`
+		- `. ~/.profile` or `source ~/.profile`
 	- You should now see a bin directory in your home folder:
-	- `ls ~`
+		- `ls ~`
+	- The `/home/(YOUR USERNAME)/bin` should now be part of your path:
+		- `echo $PATH`
 
 2. Softlink
 	- At this point you could copy the binary file ~/share/courses/OMICS/wk12_dataset/usearch8.1.1861_i86linux64 into your bin, but that is still a long command to write.  I'm lazy, so I like to create 'softlinks' (think of these like shortcuts) and name them something short and easy. Lets make the command just 'usearch':
-	- `ln -s ~/share/courses/OMICS/wk12_dataset/usearch8.1.1861_i86linux64 ~/bin/usearch`
+		- `ln -s ~/share/courses/OMICS/wk12_dataset/usearch8.1.1861_i86linux64 ~/bin/usearch`
 	- Test that by running this command:
-	- `usearch --version`
-	- How would you softlink the data file (~/share/courses/OMICS/wk12_dataset/sequences_for_clustering.fq) to your sandbox directory?
-	- Softlink the data file so that it is a link in your sandbox called `seqs.fq`
+		- `usearch --version`
 
 3. Sandbox
 	- Make the directory using the make command from the wk12 directory:
-	- `make mk_sandbox`
+		- `make mk_sandbox`
+	- What path is your sandbox?
+		- **~/share/omics_sandbox/wk12/(YOUR USERNAME)/**
+	- How would you softlink the data file (~/share/courses/OMICS/wk12_dataset/sequences_for_clustering.fq) to your sandbox directory?
+	- Softlink the data file so that it is a link in your sandbox called `seqs.fq`
 
 4. Alias
 	- It's a pain changing directories with long path names.  Let's make an alias to shorten that up a little.
 	- `alias sand='cd ~/share/omics_sandbox/wk12/(YOUR USERNAME)/'`
-	- (hint: if you don't know your username, try the command `id`!)
+	- (hint: if you don't know your username, try the command `id` or `echo $USER`!)
 	- Now you can just type `sand` and it will bring you to your sandbox location
 
 5. Dereplicate
@@ -85,16 +94,16 @@ Let's fix that with a few steps.
 
 6. Cluster OTUs
 	- Cluster the sequences together so all sequences that are 97% identical are collapsed into one representative:
-	- `usearch -cluster_otus seqs_derep.fa -otus otu.fa -uparseout uparse.up -relabel OTU_ -sizein -sizeout`
+		- `usearch -cluster_otus seqs_derep.fa -otus otu.fa -uparseout uparse.up -relabel OTU_ -sizein -sizeout`
 
 7. Chimeras AGAIN
 	- Chimeras do get removed in the previous step, based on a voting majority/sequence similarity (remember it is matching against all OTU reps)
 	- It is safer to perform another chimera removal step using a high quality database
 	- Let's softlink the **~/share/courses/OMICS/wk12_dataset/rdp_gold.fa** file in the sandbox 
-	- `usearch -uchime_ref otu.fa -db rdp_gold.fa -strand plus -nonchimeras no_chimeras.fa -chimeras chimeras.fa -uchimeout uchime_output.tsv`
+		- `usearch -uchime_ref otu.fa -db rdp_gold.fa -strand plus -nonchimeras no_chimeras.fa -chimeras chimeras.fa -uchimeout uchime_output.tsv`
 
 8. Taxonomic classification
-	- AKA "what the heck are these things?"
+	- AKA "what the heck are these things/sequences?"
 	- Oh god, my eyes! This path is way to long, softlink this file to your sandbox as '16S_db.udb': **~/share/courses/OMICS/wk12_dataset/16sMicrobial_ncbi_lineage_reference_database.udb**
 	- `usearch -utax no_chimeras.fa -db 16S_db.fa -utaxout otu.utax -utax_cutoff 0.8 -strand both`
 
