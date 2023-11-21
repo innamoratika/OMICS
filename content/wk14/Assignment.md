@@ -138,6 +138,11 @@ and other operating systems.  Why do you think I add '.tsv' instead of just '.tx
 	- Examine the 'richness' - is there any correlation between the number of reads ('observations') a sample has
 	and the species richness?  What is it and why?  What test might you perform to see if there is a significant correlation?
 	Why might a correlation be a problem in this kind of analysis? 
+	- Shannon_e's diversity takes into account both the number of species, but also the relative abundance of each species. 
+	You can think of it as 'If this sample were evenly composed of THIS NUMBER of species it would give you this value'.  
+	Pull out the richness, reads, and shannon_e columns. Compare these values.  Would you have expected to see what you
+	do? What is your conclusion about the samples given the richness vs shannon_e values in regards to how consistent richness
+	and shannon's correlate with one another?
 
 1. Gamma Diversity
 	- Calculate the gamma diversity (richness) for this dataset
